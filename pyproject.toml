@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "weather"
+version = "0.1.0"
+description = ""
+authors = ["Korshunova P.A."]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.119.0"
+psycopg2-binary = "^2.9.11"
+alembic = "^1.17.0"
+sqlalchemy = "^2.0.44"
+requests = "^2.32.5"
+uvicorn = "^0.37.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
