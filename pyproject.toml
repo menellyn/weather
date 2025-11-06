@@ -6,13 +6,17 @@ authors = ["Korshunova P.A."]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 fastapi = "^0.119.0"
 psycopg2-binary = "^2.9.11"
 alembic = "^1.17.0"
 sqlalchemy = "^2.0.44"
 requests = "^2.32.5"
 uvicorn = "^0.37.0"
+bcrypt = "^5.0.0"
+SQLAlchemy-Utils = "^0.42.0"
+pydantic-settings = "^2.11.0"
+black = "^25.9.0"
 
 
 [build-system]
