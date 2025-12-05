@@ -183,6 +183,18 @@ jupyter = ["ipython (>=7.8.0)", "tokenize-rt (>=3.2.0)"]
 uvloop = ["uvloop (>=0.15.2)"]
 
 [[package]]
+name = "case-converter"
+version = "1.2.0"
+description = "A string case conversion package."
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "case_converter-1.2.0-py3-none-any.whl", hash = "sha256:bb5bc6b1e121c394a6de6526cd3f8be0f5c5817c40d32251cce28a2cf4a72d8c"},
+    {file = "case_converter-1.2.0.tar.gz", hash = "sha256:4e0281ae60d4335e57300bafd61cfb3fa65734587fe9efd32f6cec1a506685c5"},
+]
+
+[[package]]
 name = "certifi"
 version = "2025.11.12"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -1236,4 +1248,4 @@ standard = ["colorama (>=0.4)", "httptools (>=0.6.3)", "python-dotenv (>=0.13)",
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "61e2bb767fcf515e82c3f144ed8b4a0b4c7a21f30340f6999c9019c8ae5db5b7"
+content-hash = "88f411584f37abecb975fe645d92218e3493b659975a5c7ee71346ef43c6b429"
